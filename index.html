@@ -1,34 +1,30 @@
 
 <html>
-	<style>
-		.red{
-		background-color: red;
-		color: #000000;
-			}
-		.border{
-			border: 1px solid black;
-			}
-	</style>
 
 	<head>
 		<title>Augustin Teleba</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
 	</head>
 	<body>
-		<h1>
-			Nume: Teleba<br>
-			Prenume: Augustin
+		<h1 id="nume">
+			Nume: <span class="PAPYRUS">Teleba</span><br>
+			Prenume: <span class="PAPYRUS">Augustin</span>
 		</h1>
 
-		<h2>Email: telebaaugustin@gmail.com</h2>
+		<h2>Email: <span class="papyrus">telebaaugustin@gmail.com</span></h2>
 
-		<img height="300" width="500" src="img\toyota-ae86-levin-hatchback-trueno-sedan-2582813.jpg">
+		<h3 id="anNas" class="papyrus">2006</h3>
 
-		<ul>
-			<li>Sa fie totul bine</li>
+		<img id="png" class="rdimg" src="img\toyota-ae86-levin-hatchback-trueno-sedan-2582813.jpg">
+
+		<h4 id="edc">Asteptari de la educatie:</h4>
+		<ul id="lista">
+			<li>Sa fie totul <span class="papyrus ; red" >bine</span></li>
 		</ul>
 		
-		<table style="border: 1px solid black;">
-			<tr class="red">
+		<table>
+			<tr>
 				<th>Disciplina</th>
 				<th>An</th>
 				<th>Link</th>
@@ -61,6 +57,7 @@
 		</table>
 
 		<a href="cuprins.html">Cuprins</a>
+		<button id="change">Change</button>
 	</body>
 
 	

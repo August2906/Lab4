@@ -1,0 +1,49 @@
+body {
+
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+	display: grid;
+	place-items: center;
+	background-color: #aaaaaa;
+
+}
+
+.PAPYRUS {
+
+	font-family: "Papyrus", "Comic Sans MS", fantasy;
+	font-style: italic;
+
+}
+
+
+ul {
+
+	list-style-type: square;	
+
+}
+
+table, td, th{
+
+	border: 1px dotted black;
+
+}
+
+th {
+
+	color: black;
+	background-color: white;
+}
+
+.rdimg {
+
+	border-radius: 30px;
+	height: 300px; 
+	width: 500px;
+
+}
+
+.red{
+
+	color: red;
+
+}
